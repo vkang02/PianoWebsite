@@ -1,0 +1,286 @@
+/*http://evergreenpianolessons.files.wordpress.com/2014/08/giuseppe_caruana2.jpg?w=300&h=191*/
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('../fonts/Amble-Regular-webfont.eot');
+    src: url('../fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('../fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html * {
+    margin: 0px auto;
+    padding: 0px;
+    list-style: none;
+    z-index: 0;
+}
+
+body {
+    color: #eeeeee; //font color
+    font-size: 0.8em;
+    text-align: center;
+    z-index: 1;
+    min-width: 980px; 
+    text-align: center;
+}
+
+section{
+    display:block;
+    margin:0px;
+    height:25%;
+}
+
+div {
+    display: block;
+}
+
+
+#header{
+    max-width: 1000px;
+    margin: auto;
+    position: absolute;
+    height:400px;
+}
+
+p{
+    padding:2%;
+}
+
+#home {
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    height: 670px;;
+    z-index: 10;
+    background-color:black;
+}
+
+
+#header {
+    position: absolute;
+    width: 800px;
+    text-align: center;
+    z-index: 8;
+}
+
+
+
+#nav {
+    position: relative;
+    font-family: arial, helvetica, serif;
+    height: 36px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    z-index: 12;
+    text-align: center;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#nav div.container {
+    display: inline-block;
+    margin: 0px auto;
+}
+
+.menu {
+    position: relative;
+    list-style: none;
+    padding: 0px;
+}
+
+.menu li {
+    position: relative;
+    display: inline;
+    padding: 10px 15px 10px 15px;
+    float: left;
+    margin: 0px;
+}
+
+.menu li a{
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    text-decoration:underline;
+}
+
+
+#about{
+    background-color: white;
+    height:700px;
+    font-family: 'ambleregular';
+    color:black;
+    text-align:center;
+}
+
+.circle-text {
+    width:15%;
+    float:left;
+    margin-left:5%;
+}
+
+.circle-text:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: black; 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+.circle-text div {
+    float:left;
+    width:100%;
+    padding-top:35%;
+    line-height:2em;
+    text-align:center;
+    color:white;
+    font-size: 20px;
+}
+
+.circle-method {
+    width:20%;
+    float:left;
+    margin-left:3%;
+    margin-top: 20%;
+}
+
+.circle-method:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: black; 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+.circle-method div {
+    float:left;
+    width:100%;
+    padding-top:30%;
+    line-height:2em;
+    text-align:center;
+    color:white;
+    font-size: 20px;
+}
+
+.circle-lesson {
+    width:18%;
+    float:left;
+    margin-left:3%;
+    margin-top: 3%;
+}
+
+.circle-lesson:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: black; 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+.circle-lesson div {
+    float:left;
+    width:100%;
+    padding-top:30%;
+    line-height:2em;
+    text-align:center;
+    color:white;
+    font-size: 20px;
+}
+
+.circle-studio {
+    width:24%;
+    float:left;
+    margin-left:4%;
+    margin-top: 15%;
+}
+
+.circle-studio:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: black; 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+.circle-studio div {
+    float:left;
+    width:100%;
+    padding-top:34%;
+    line-height:2em;
+    text-align:center;
+    color:white;
+    font-size: 20px;
+}
+
+#instruct{
+    background-color: black;
+    height: 700px;
+}
+
+#icontainer{
+    float:right;
+    width:60%;
+    margin-top: 10%;
+    margin-right: 3%;
+    font-family: 'ambleregular';
+
+}
+
+#icontainer h1{
+    font-size: 60px;
+}
+
+#contact{
+    background-color: white;
+    height:700px;
+}
+
+#container{
+    font-family: 'ambleregular';
+    color:black;
+    float:right;
+    width:60%;
+    margin-top:200px;
+    margin-right:50px;
+    text-align:center;
+}
+
+#container h1{
+    font-size:60px;
+}
+
+footer{
+    
+}
